@@ -20,3 +20,19 @@ def convert_decimal(num):
 
 bin_check = convert_decimal(number_to_convert)
 print(bin_check)
+
+print("\n")
+print("======++++++ Binary Conversion Process(Using Recursion) ++++++======")
+print("\n")
+
+
+def decimal_convert_process(num):
+    bin_holder = []
+    if num >= 1:
+        decimal_convert_process(num//2)
+        print(num//2, num%2, sep="|")
+        # bin_holder.append(str(num%2))
+        # print(bin_holder[::-1])
+
+decimal_convert_process(number_to_convert)
+
