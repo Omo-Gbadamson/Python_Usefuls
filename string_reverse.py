@@ -1,5 +1,3 @@
-from audioop import reverse
-
 
 print("======++++++ String Reverse Code ++++++======")
 print("\n")
