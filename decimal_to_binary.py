@@ -30,9 +30,9 @@ def decimal_convert_process(num):
     # bin_holder = []
     if num >= 1:
         decimal_convert_process(num//2)
-        print(f" {num//2} | {num%2}")
+        print(f" {num//2} r {num%2}")
         # bin_holder.append(str(num%2))
         # print(bin_holder[::-1])
-
+        
 decimal_convert_process(number_to_convert)
 
